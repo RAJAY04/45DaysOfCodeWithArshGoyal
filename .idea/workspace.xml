@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/DaysOfCode45.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/DailyCodes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day1/FindDuplicateNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day1/RemoveDuplicatesfromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day1/ReversePairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day1/SetMatrix0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day1/SortColors.java" afterDir="false" />
-    </list>
+    <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -50,7 +37,7 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SummerDSA/Summer_DSA",
+    "last_opened_file_path": "D:/SummerDSA/DaysOfCode45",
     "settings.editor.selected.configurable": "configurable.group.other"
   }
 }]]></component>
@@ -105,6 +92,7 @@
       <updated>1721033670294</updated>
       <workItem from="1721033671411" duration="9805000" />
       <workItem from="1721053166472" duration="3563000" />
+      <workItem from="1721066022367" duration="665000" />
     </task>
     <servers />
   </component>
