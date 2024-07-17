@@ -13,7 +13,7 @@ public class MaxValueofEquation {
     public static int findMaxValueOfEquation(int[][] points, int k) {
         //yj + yi + |xi - xj| = yj + yi + xj - xi
         //yj + xj + yi - xi
-        //use a priority queue to store the values of yi - xi,xi \
+        //use a priority queue to store the values of yi - xi,xi
 
         //step 1 : sort the points based on xj - xi ( already sorted )
         //step 2 : iterate over the points and calculate the value of yj + xj + yi - xi
@@ -28,27 +28,32 @@ public class MaxValueofEquation {
         int res = Integer.MIN_VALUE;
 
         for (int[] point : points) {
-            int x_j = point[0];
-            int y_j = point[1];
+            int xj = point[0];
+            int yj = point[1];
 
             // discard objects that we will never use since too far away
-            while (!deque.isEmpty() && x_j - deque.peekFirst()[0] > k)//x_j - xi > k
+            while (!deque.isEmpty() && xj - deque.peekFirst()[0] > k)//xj - xi > k
                 deque.pollFirst();
 
 
-            int sum_j = x_j + y_j;
+            int sum_j = xj + yj;
 
             if (!deque.isEmpty())
                 res = Math.max(res, deque.peekFirst()[1] + sum_j);
 
 
-            int diff_j = y_j - x_j;
+            int diff_j = yj - xj;
 
-            // discard objects that are inferior (x_i is further than x_j and it's value is smaller)
+            // discard objects that are inferior (xi is further than xj and it's value is smaller)
             while (!deque.isEmpty() &&  diff_j > deque.peekLast()[1])
-                deque.pollLast();
+                deque.pollLast();//we do this just to do our sorting work which was done in priority q
 
-            deque.offerLast(new int[]{x_j, diff_j});
+            //It starts from the end and goes through all the items up until the front of the queue,
+            // if any item is less that the diff we have now, we remove it.
+            //If we find an item with a greater diff, then we leave it and insert our item after it,
+            // now the items are for sure order by (yi-xi) from the front.
+
+            deque.offerLast(new int[]{xj, diff_j});
         }
 
         return res;
@@ -65,30 +70,26 @@ public class MaxValueofEquation {
     }
 
     public static int findMaxValueOfEquation1(int[][] points, int k) {
-        // PriorityQueue to store points in the form (yi - xi, xi)
-        // We use a max heap to get the maximum value of (yi - xi) efficiently
         PriorityQueue<Point> pq = new PriorityQueue<>((a, b) -> b.value - a.value);
+        int ans = Integer.MIN_VALUE;
+        for(int[] point : points){
+            int xj = point[0], yj = point[1];
 
-        int res = Integer.MIN_VALUE;
 
-        for (int[] point : points) {
-            int xj = point[0];
-            int yj = point[1];
-
-            // Remove points from the heap where the difference in x coordinates is greater than k
-            while (!pq.isEmpty() && xj - pq.peek().x > k) {
+            //since we know that the items are stored in accordance to the descending order of yi-xi we know that the one we stop
+            // at is going to be the maximum yi-xi and is at most k distance away. (it doesn't really matter how far is it as long as it is within k).
+            while(!pq.isEmpty() && xj - pq.peek().x > k){
                 pq.poll();
             }
 
-            // If the heap is not empty, calculate the potential maximum value of the equation
-            if (!pq.isEmpty()) {
-                res = Math.max(res, pq.peek().value + xj + yj);
+            int difference = yj - xj;
+            if(!pq.isEmpty()){
+                int yiMinusxi = pq.peek().value;
+                ans = Math.max(ans,xj + yj + yiMinusxi);
             }
+            pq.add(new Point(difference,xj));
 
-            // Add the current point in the form (yj - xj, xj) to the heap
-            pq.offer(new Point(yj - xj, xj));
         }
-
-        return res;
+        return ans;
     }
 }
