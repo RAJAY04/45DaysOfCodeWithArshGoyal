@@ -15,24 +15,26 @@ public class AllUniquePermutationsOfArray {
     }
 
     static ArrayList<ArrayList<Integer>> uniquePerms(ArrayList<Integer> arr, int n) {
-        ArrayList<ArrayList<Integer>> result = new ArrayList<>();
+        boolean[] visited = new boolean[n];
         Collections.sort(arr);
-        boolean[] used = new boolean[n];
-        backtrack(arr, new ArrayList<>(), used, result);
-        return result;
+        ArrayList<Integer> ans = new ArrayList<>();
+        ArrayList<ArrayList<Integer>> res = new ArrayList<>();
+        dfs(arr,n,visited,ans,res);
+        return res;
     }
-
-    static void backtrack(ArrayList<Integer> arr, ArrayList<Integer> tempList, boolean[] used, ArrayList<ArrayList<Integer>> result) {
-        if (tempList.size() == arr.size()) {
-            result.add(new ArrayList<>(tempList));
-        } else {
-            for (int i = 0; i < arr.size(); i++) {
-                if (used[i] || (i > 0 && arr.get(i) == arr.get(i - 1) && !used[i - 1])) continue;
-                used[i] = true;
-                tempList.add(arr.get(i));
-                backtrack(arr, tempList, used, result);
-                used[i] = false;
-                tempList.remove(tempList.size() - 1);
+    public static void dfs(List<Integer> arr , int n , boolean[] visited ,ArrayList<Integer> ans, ArrayList<ArrayList<Integer>> res){
+        if(ans.size() == arr.size()){
+            res.add(new ArrayList<>(ans));
+        }else{
+            for(int i = 0 ; i  < n ; i++){
+                if (visited[i] || (i > 0 && arr.get(i) == arr.get(i - 1) && !visited[i - 1])) {
+                    continue; // Skip duplicates
+                }
+                visited[i] = true;
+                ans.add(arr.get(i));
+                dfs(arr, n, visited, ans, res);
+                ans.remove(ans.size() - 1);
+                visited[i] = false;
             }
         }
     }
