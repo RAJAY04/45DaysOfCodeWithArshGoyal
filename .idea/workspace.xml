@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/GroupAnagrams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/PrintDuplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/RabinKarp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/ReverseWordsinaString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day6/ValidParenthesis.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/BasicCalculatorII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/IntegerToEnglishWords.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/MinimumWindowSubstring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/PrintAnagramTogether.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/RotateImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/ValidNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,25 +42,30 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AllUniquePermutationsOfArray.executor": "Run",
+    "Application.BasicCalculatorII.executor": "Run",
     "Application.BestTimeToBuyAndSellStocksII.executor": "Run",
     "Application.FIndAllDuplicatesInTheArray.executor": "Run",
     "Application.FourSum.executor": "Run",
     "Application.GameOfLIfe.executor": "Run",
     "Application.GenerateParenthesis.executor": "Run",
     "Application.GroupAnagrams.executor": "Run",
+    "Application.IntegerToEnglishWords.executor": "Run",
     "Application.IntegerToRoman.executor": "Run",
     "Application.JumpGame.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxValueofEquation.executor": "Run",
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
+    "Application.MinimumWindowSubstring.executor": "Run",
     "Application.PrintDuplicates.executor": "Run",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
     "Application.ReversePairs.executor": "Run",
     "Application.ReverseWordsinaString.executor": "Run",
+    "Application.RotateImage.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.ValidNumber.executor": "Debug",
     "Application.ValidParenthesis.executor": "Run",
     "Application.WordSearch.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -72,13 +77,13 @@
     "settings.editor.selected.configurable": "configurable.group.other"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.GroupAnagrams">
-    <configuration name="GroupAnagrams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.GroupAnagrams" />
+  <component name="RunManager" selected="Application.RotateImage">
+    <configuration name="BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.BasicCalculatorII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,12 +91,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintDuplicates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.PrintDuplicates" />
+    <configuration name="IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.IntegerToEnglishWords" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -99,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseWordsinaString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.ReverseWordsinaString" />
+    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.MinimumWindowSubstring" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SmallestWindowInaStringContainingAllTheCharactersOfAnotherString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString" />
+    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.RotateImage" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParenthesis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day6.ValidParenthesis" />
+    <configuration name="ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day7.ValidNumber" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day6.*" />
+          <option name="PATTERN" value="day7.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -140,11 +145,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GroupAnagrams" />
-        <item itemvalue="Application.PrintDuplicates" />
-        <item itemvalue="Application.ReverseWordsinaString" />
-        <item itemvalue="Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString" />
-        <item itemvalue="Application.ValidParenthesis" />
+        <item itemvalue="Application.RotateImage" />
+        <item itemvalue="Application.MinimumWindowSubstring" />
+        <item itemvalue="Application.IntegerToEnglishWords" />
+        <item itemvalue="Application.ValidNumber" />
+        <item itemvalue="Application.BasicCalculatorII" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +181,8 @@
       <workItem from="1721399196702" duration="624000" />
       <workItem from="1721401227269" duration="7643000" />
       <workItem from="1721477362289" duration="5306000" />
-      <workItem from="1721494351325" duration="4053000" />
+      <workItem from="1721494351325" duration="4851000" />
+      <workItem from="1721571069387" duration="12738000" />
     </task>
     <servers />
   </component>
@@ -245,6 +251,21 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day6/ReverseWordsinaString.java</url>
           <line>10</line>
           <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day7/BasicCalculatorII.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day7/MinimumWindowSubstring.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day7/RotateImage.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
