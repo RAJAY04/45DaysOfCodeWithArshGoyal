@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/BasicCalculatorII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/IntegerToEnglishWords.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/MinimumWindowSubstring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/PrintAnagramTogether.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/RotateImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day7/ValidNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/LongestRepeatingCharacterReplacement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/MaximumProductofThreeNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/TextJustification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/ValidPalindromeII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/findTheIndexOfFirstOccurenceInString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +52,8 @@
     "Application.IntegerToEnglishWords.executor": "Run",
     "Application.IntegerToRoman.executor": "Run",
     "Application.JumpGame.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestRepeatingCharacterReplacement.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxValueofEquation.executor": "Run",
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
@@ -64,10 +66,13 @@
     "Application.SimplifyPath.executor": "Run",
     "Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.TextJustification.executor": "Run",
     "Application.ThreeSum.executor": "Run",
     "Application.ValidNumber.executor": "Debug",
+    "Application.ValidPalindromeII.executor": "Debug",
     "Application.ValidParenthesis.executor": "Run",
     "Application.WordSearch.executor": "Run",
+    "Application.findTheIndexOfFirstOccurenceInString.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -77,13 +82,13 @@
     "settings.editor.selected.configurable": "configurable.group.other"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RotateImage">
-    <configuration name="BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.BasicCalculatorII" />
+  <component name="RunManager" selected="Application.ValidPalindromeII">
+    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.LongestCommonPrefix" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.IntegerToEnglishWords" />
+    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.LongestRepeatingCharacterReplacement" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +109,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.MinimumWindowSubstring" />
+    <configuration name="TextJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.TextJustification" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RotateImage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.RotateImage" />
+    <configuration name="ValidPalindromeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.ValidPalindromeII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day7.ValidNumber" />
+    <configuration name="findTheIndexOfFirstOccurenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day8.findTheIndexOfFirstOccurenceInString" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day7.*" />
+          <option name="PATTERN" value="day8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -145,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RotateImage" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.IntegerToEnglishWords" />
-        <item itemvalue="Application.ValidNumber" />
-        <item itemvalue="Application.BasicCalculatorII" />
+        <item itemvalue="Application.ValidPalindromeII" />
+        <item itemvalue="Application.LongestCommonPrefix" />
+        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
+        <item itemvalue="Application.findTheIndexOfFirstOccurenceInString" />
+        <item itemvalue="Application.TextJustification" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +187,11 @@
       <workItem from="1721401227269" duration="7643000" />
       <workItem from="1721477362289" duration="5306000" />
       <workItem from="1721494351325" duration="4851000" />
-      <workItem from="1721571069387" duration="12738000" />
+      <workItem from="1721571069387" duration="13373000" />
+      <workItem from="1721591137979" duration="126000" />
+      <workItem from="1721648962249" duration="654000" />
+      <workItem from="1721650654814" duration="6872000" />
+      <workItem from="1721665248444" duration="5839000" />
     </task>
     <servers />
   </component>
@@ -266,6 +275,26 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day7/RotateImage.java</url>
           <line>17</line>
           <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day8/TextJustification.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day8/TextJustification.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day8/LongestCommonPrefix.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day8/ValidPalindromeII.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
