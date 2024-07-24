@@ -5,18 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/BeautifulArrangements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/CombinationSumII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/Combinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/NQueens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/PalindromicPartition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/PermutationII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/Subsets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/SubsetsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/SudokuSolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/UniquePathsIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/BFSofGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/BipartiteGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/DecodeString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/DfsOfGraph.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/DirectedGraphCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/NumberOfIslands.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/RatInAMazeProblemI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/StepsByKnight.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/UndirectedGraphCycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day10/WordLadder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/on july 15th im starting my challenge and ending before august 30th" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,11 +46,14 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AllUniquePermutationsOfArray.executor": "Run",
+    "Application.BFSofGraph.executor": "Run",
     "Application.BasicCalculatorII.executor": "Run",
     "Application.BeautifulArrangements.executor": "Run",
     "Application.BestTimeToBuyAndSellStocksII.executor": "Run",
     "Application.CombinationSumII.executor": "Run",
     "Application.Combinations.executor": "Debug",
+    "Application.DecodeString.executor": "Debug",
+    "Application.DirectedGraphCycle.executor": "Run",
     "Application.FIndAllDuplicatesInTheArray.executor": "Run",
     "Application.FourSum.executor": "Run",
     "Application.GameOfLIfe.executor": "Run",
@@ -67,9 +69,11 @@
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
     "Application.NQueens.executor": "Run",
+    "Application.NumberOfIslands.executor": "Run",
     "Application.PalindromicPartition.executor": "Run",
     "Application.PermutationII.executor": "Run",
     "Application.PrintDuplicates.executor": "Run",
+    "Application.RatInAMazeProblemI.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
     "Application.ReversePairs.executor": "Run",
     "Application.ReverseWordsinaString.executor": "Run",
@@ -77,6 +81,7 @@
     "Application.SimplifyPath.executor": "Run",
     "Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.StepsByKnight.executor": "Run",
     "Application.SubsetsII.executor": "Run",
     "Application.SudokuSolver.executor": "Run",
     "Application.TextJustification.executor": "Run",
@@ -85,6 +90,7 @@
     "Application.ValidNumber.executor": "Debug",
     "Application.ValidPalindromeII.executor": "Debug",
     "Application.ValidParenthesis.executor": "Run",
+    "Application.WordLadder.executor": "Run",
     "Application.WordSearch.executor": "Run",
     "Application.findTheIndexOfFirstOccurenceInString.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -92,17 +98,17 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SummerDSA/Summer_DSA",
+    "last_opened_file_path": "D:/SummerDSA/DaysOfCode45",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.UniquePathsIII">
-    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.NQueens" />
+  <component name="RunManager" selected="Application.WordLadder">
+    <configuration name="DecodeString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.DecodeString" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PalindromicPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.PalindromicPartition" />
+    <configuration name="DirectedGraphCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.DirectedGraphCycle" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PermutationII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.PermutationII" />
+    <configuration name="RatInAMazeProblemI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.RatInAMazeProblemI" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.SudokuSolver" />
+    <configuration name="StepsByKnight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.StepsByKnight" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UniquePathsIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day9.UniquePathsIII" />
+    <configuration name="WordLadder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day10.WordLadder" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day9.*" />
+          <option name="PATTERN" value="day10.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.UniquePathsIII" />
-        <item itemvalue="Application.SudokuSolver" />
-        <item itemvalue="Application.NQueens" />
-        <item itemvalue="Application.PermutationII" />
-        <item itemvalue="Application.PalindromicPartition" />
+        <item itemvalue="Application.WordLadder" />
+        <item itemvalue="Application.DecodeString" />
+        <item itemvalue="Application.StepsByKnight" />
+        <item itemvalue="Application.DirectedGraphCycle" />
+        <item itemvalue="Application.RatInAMazeProblemI" />
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +215,12 @@
       <workItem from="1721727524304" duration="16841000" />
       <workItem from="1721751626033" duration="4178000" />
       <workItem from="1721796782007" duration="17000" />
+      <workItem from="1721805443692" duration="1635000" />
+      <workItem from="1721807175572" duration="1669000" />
+      <workItem from="1721809356525" duration="384000" />
+      <workItem from="1721809772039" duration="3689000" />
+      <workItem from="1721820958298" duration="6318000" />
+      <workItem from="1721839548434" duration="4031000" />
     </task>
     <servers />
   </component>
@@ -327,6 +339,11 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day9/UniquePathsIII.java</url>
           <line>11</line>
           <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day10/DecodeString.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
