@@ -5,13 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/LongestRepeatingCharacterReplacement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/MaximumProductofThreeNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/TextJustification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/ValidPalindromeII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day8/findTheIndexOfFirstOccurenceInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/BeautifulArrangements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/Combinations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/NQueens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/PalindromicPartition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/PermutationII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/Subsets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/SubsetsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/SudokuSolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day9/UniquePathsIII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/on july 15th im starting my challenge and ending before august 30th" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +48,10 @@
   "keyToString": {
     "Application.AllUniquePermutationsOfArray.executor": "Run",
     "Application.BasicCalculatorII.executor": "Run",
+    "Application.BeautifulArrangements.executor": "Run",
     "Application.BestTimeToBuyAndSellStocksII.executor": "Run",
+    "Application.CombinationSumII.executor": "Run",
+    "Application.Combinations.executor": "Debug",
     "Application.FIndAllDuplicatesInTheArray.executor": "Run",
     "Application.FourSum.executor": "Run",
     "Application.GameOfLIfe.executor": "Run",
@@ -58,6 +66,9 @@
     "Application.MaxValueofEquation.executor": "Run",
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
+    "Application.NQueens.executor": "Run",
+    "Application.PalindromicPartition.executor": "Run",
+    "Application.PermutationII.executor": "Run",
     "Application.PrintDuplicates.executor": "Run",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
     "Application.ReversePairs.executor": "Run",
@@ -66,8 +77,11 @@
     "Application.SimplifyPath.executor": "Run",
     "Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
+    "Application.SubsetsII.executor": "Run",
+    "Application.SudokuSolver.executor": "Run",
     "Application.TextJustification.executor": "Run",
     "Application.ThreeSum.executor": "Run",
+    "Application.UniquePathsIII.executor": "Run",
     "Application.ValidNumber.executor": "Debug",
     "Application.ValidPalindromeII.executor": "Debug",
     "Application.ValidParenthesis.executor": "Run",
@@ -78,17 +92,17 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SummerDSA/DaysOfCode45",
-    "settings.editor.selected.configurable": "configurable.group.other"
+    "last_opened_file_path": "D:/SummerDSA/Summer_DSA",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ValidPalindromeII">
-    <configuration name="LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.LongestCommonPrefix" />
+  <component name="RunManager" selected="Application.UniquePathsIII">
+    <configuration name="NQueens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.NQueens" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestRepeatingCharacterReplacement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.LongestRepeatingCharacterReplacement" />
+    <configuration name="PalindromicPartition" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.PalindromicPartition" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextJustification" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.TextJustification" />
+    <configuration name="PermutationII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.PermutationII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.ValidPalindromeII" />
+    <configuration name="SudokuSolver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.SudokuSolver" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -135,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="findTheIndexOfFirstOccurenceInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day8.findTheIndexOfFirstOccurenceInString" />
+    <configuration name="UniquePathsIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day9.UniquePathsIII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day8.*" />
+          <option name="PATTERN" value="day9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,11 +164,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValidPalindromeII" />
-        <item itemvalue="Application.LongestCommonPrefix" />
-        <item itemvalue="Application.LongestRepeatingCharacterReplacement" />
-        <item itemvalue="Application.findTheIndexOfFirstOccurenceInString" />
-        <item itemvalue="Application.TextJustification" />
+        <item itemvalue="Application.UniquePathsIII" />
+        <item itemvalue="Application.SudokuSolver" />
+        <item itemvalue="Application.NQueens" />
+        <item itemvalue="Application.PermutationII" />
+        <item itemvalue="Application.PalindromicPartition" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +205,10 @@
       <workItem from="1721591137979" duration="126000" />
       <workItem from="1721648962249" duration="654000" />
       <workItem from="1721650654814" duration="6872000" />
-      <workItem from="1721665248444" duration="5839000" />
+      <workItem from="1721665248444" duration="6445000" />
+      <workItem from="1721727524304" duration="16841000" />
+      <workItem from="1721751626033" duration="4178000" />
+      <workItem from="1721796782007" duration="17000" />
     </task>
     <servers />
   </component>
@@ -296,7 +313,26 @@
           <line>9</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day9/SubsetsII.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day9/UniquePathsIII.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day9/UniquePathsIII.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
