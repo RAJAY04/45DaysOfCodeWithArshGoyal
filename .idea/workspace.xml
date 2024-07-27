@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/AddBinary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/AddTwoNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/FindTheNumberOfIslands.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/MiddleOfTheLL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/MinimumMovestoEqualArrayElementsII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day12/ReplaceOsWithXs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/AddTwoNumbersII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/CopyListWithRandomPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/FlattenaMultilevelDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/RemoveNthNodeFromEndOfList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/ReorderList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/ReverseLLII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +41,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.AddBinary.executor": "Run",
+    "Application.AddBinary.executor": "Debug",
+    "Application.AddTwoNumbersII.executor": "Run",
     "Application.AllUniquePermutationsOfArray.executor": "Run",
     "Application.BFSofGraph.executor": "Run",
     "Application.BasicCalculatorII.executor": "Run",
@@ -49,11 +50,13 @@
     "Application.BestTimeToBuyAndSellStocksII.executor": "Run",
     "Application.CombinationSumII.executor": "Run",
     "Application.Combinations.executor": "Debug",
+    "Application.CopyListWithRandomPointer.executor": "Run",
     "Application.DecodeString.executor": "Debug",
     "Application.DirectedGraphCycle.executor": "Run",
     "Application.FIndAllDuplicatesInTheArray.executor": "Run",
     "Application.FindEventualSafeStates.executor": "Debug",
     "Application.FindTheNumberOfIslands.executor": "Run",
+    "Application.FlattenaMultilevelDoublyLinkedList.executor": "Run",
     "Application.FourSum.executor": "Run",
     "Application.GameOfLIfe.executor": "Run",
     "Application.GenerateParenthesis.executor": "Run",
@@ -75,6 +78,9 @@
     "Application.PrintDuplicates.executor": "Run",
     "Application.RatInAMazeProblemI.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
+    "Application.RemoveNthNodeFromEndOfList.executor": "Run",
+    "Application.ReorderList.executor": "Run",
+    "Application.ReverseLLII.executor": "Run",
     "Application.ReversePairs.executor": "Run",
     "Application.ReverseWordsinaString.executor": "Run",
     "Application.RotateImage.executor": "Run",
@@ -103,13 +109,13 @@
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AddBinary">
-    <configuration name="AddBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.AddBinary" />
+  <component name="RunManager" selected="Application.CopyListWithRandomPointer">
+    <configuration name="CopyListWithRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.CopyListWithRandomPointer" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +123,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindEventualSafeStates" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.FindEventualSafeStates" />
+    <configuration name="FlattenaMultilevelDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.FlattenaMultilevelDoublyLinkedList" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +136,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindTheNumberOfIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.FindTheNumberOfIslands" />
+    <configuration name="RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.RemoveNthNodeFromEndOfList" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MinimumMovestoEqualArrayElementsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day12.MinimumMovestoEqualArrayElementsII" />
+    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.ReorderList" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day12.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +162,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortestBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day11.ShortestBridge" />
+    <configuration name="ReverseLLII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.ReverseLLII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day11.*" />
+          <option name="PATTERN" value="day13.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,11 +177,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AddBinary" />
-        <item itemvalue="Application.MinimumMovestoEqualArrayElementsII" />
-        <item itemvalue="Application.FindTheNumberOfIslands" />
-        <item itemvalue="Application.ShortestBridge" />
-        <item itemvalue="Application.FindEventualSafeStates" />
+        <item itemvalue="Application.CopyListWithRandomPointer" />
+        <item itemvalue="Application.FlattenaMultilevelDoublyLinkedList" />
+        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
+        <item itemvalue="Application.ReorderList" />
+        <item itemvalue="Application.ReverseLLII" />
       </list>
     </recent_temporary>
   </component>
@@ -227,6 +233,9 @@
       <workItem from="1721915429244" duration="11110000" />
       <workItem from="1721996990325" duration="4244000" />
       <workItem from="1722007845508" duration="5920000" />
+      <workItem from="1722019500321" duration="19000" />
+      <workItem from="1722022245174" duration="437000" />
+      <workItem from="1722064469040" duration="15664000" />
     </task>
     <servers />
   </component>
@@ -360,6 +369,11 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day12/AddBinary.java</url>
           <line>9</line>
           <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day13/AddTwoNumbersII.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="46" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
