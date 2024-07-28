@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/AddTwoNumbersII.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/CopyListWithRandomPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/FlattenaMultilevelDoublyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/ReorderList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day13/ReverseLLII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/MergeKLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/PartitionList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/RemoveDuplicatesfromSortedListII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/ReverseNodesInKGroup.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/SortList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day14/SubstractionInLL.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,27 +69,33 @@
     "Application.MajorityElement.executor": "Run",
     "Application.MaxValueofEquation.executor": "Run",
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
+    "Application.MergeKLists.executor": "Run",
     "Application.MinimumMovestoEqualArrayElementsII.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NumberOfIslands.executor": "Run",
     "Application.PalindromicPartition.executor": "Run",
+    "Application.PartitionList.executor": "Run",
     "Application.PermutationII.executor": "Run",
     "Application.PrintDuplicates.executor": "Run",
     "Application.RatInAMazeProblemI.executor": "Debug",
     "Application.RemoveDuplicatesfromSortedArray.executor": "Run",
+    "Application.RemoveDuplicatesfromSortedListII.executor": "Run",
     "Application.RemoveNthNodeFromEndOfList.executor": "Run",
     "Application.ReorderList.executor": "Run",
     "Application.ReverseLLII.executor": "Run",
+    "Application.ReverseNodesInKGroup.executor": "Run",
     "Application.ReversePairs.executor": "Run",
     "Application.ReverseWordsinaString.executor": "Run",
     "Application.RotateImage.executor": "Run",
     "Application.ShortestBridge.executor": "Run",
     "Application.SimplifyPath.executor": "Run",
     "Application.SmallestWindowInaStringContainingAllTheCharactersOfAnotherString.executor": "Run",
+    "Application.SortList.executor": "Run",
     "Application.SpiralMatrix.executor": "Run",
     "Application.StepsByKnight.executor": "Run",
     "Application.SubsetsII.executor": "Run",
+    "Application.SubstractionInLL.executor": "Run",
     "Application.SudokuSolver.executor": "Run",
     "Application.TextJustification.executor": "Run",
     "Application.ThreeSum.executor": "Run",
@@ -105,17 +111,17 @@
     "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/SummerDSA/Summer_DSA",
+    "last_opened_file_path": "D:/SummerDSA/DaysOfCode45",
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.CopyListWithRandomPointer">
-    <configuration name="CopyListWithRandomPointer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.CopyListWithRandomPointer" />
+  <component name="RunManager" selected="Application.SubstractionInLL">
+    <configuration name="MergeKLists" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.MergeKLists" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlattenaMultilevelDoublyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.FlattenaMultilevelDoublyLinkedList" />
+    <configuration name="RemoveDuplicatesfromSortedListII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.RemoveDuplicatesfromSortedListII" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveNthNodeFromEndOfList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.RemoveNthNodeFromEndOfList" />
+    <configuration name="ReverseNodesInKGroup" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.ReverseNodesInKGroup" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -149,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReorderList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.ReorderList" />
+    <configuration name="SortList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.SortList" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLLII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.ReverseLLII" />
+    <configuration name="SubstractionInLL" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day14.SubstractionInLL" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day13.*" />
+          <option name="PATTERN" value="day14.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,11 +183,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CopyListWithRandomPointer" />
-        <item itemvalue="Application.FlattenaMultilevelDoublyLinkedList" />
-        <item itemvalue="Application.RemoveNthNodeFromEndOfList" />
-        <item itemvalue="Application.ReorderList" />
-        <item itemvalue="Application.ReverseLLII" />
+        <item itemvalue="Application.SubstractionInLL" />
+        <item itemvalue="Application.ReverseNodesInKGroup" />
+        <item itemvalue="Application.MergeKLists" />
+        <item itemvalue="Application.SortList" />
+        <item itemvalue="Application.RemoveDuplicatesfromSortedListII" />
       </list>
     </recent_temporary>
   </component>
@@ -236,6 +242,10 @@
       <workItem from="1722019500321" duration="19000" />
       <workItem from="1722022245174" duration="437000" />
       <workItem from="1722064469040" duration="15664000" />
+      <workItem from="1722107189725" duration="33000" />
+      <workItem from="1722133644800" duration="76000" />
+      <workItem from="1722156758216" duration="69000" />
+      <workItem from="1722156841048" duration="15580000" />
     </task>
     <servers />
   </component>
@@ -374,6 +384,37 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day13/AddTwoNumbersII.java</url>
           <line>29</line>
           <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day14/PartitionList.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day14/RemoveDuplicatesfromSortedListII.java</url>
+          <line>24</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day14/SortList.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day14/SortList.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day14/ReverseNodesInKGroup.java</url>
+          <line>24</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="54" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
