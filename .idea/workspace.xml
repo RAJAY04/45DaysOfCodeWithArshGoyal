@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e835f70c-fb1a-4b44-9a62-ff0d2ad61cc9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/ClimbingStairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/CountingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/KinightDialer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/MaximumProductSubarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/OnesAndZeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day17/UniquePaths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/DecodeWays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/LongestIncreasingSubsequence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/MaximiseCutSegments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/MaximumLengthofRepeatedSubarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyCodes/src/day18/MinimumPathSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -48,11 +48,13 @@
     "Application.BasicCalculatorII.executor": "Run",
     "Application.BeautifulArrangements.executor": "Run",
     "Application.BestTimeToBuyAndSellStocksII.executor": "Run",
+    "Application.CoinChange.executor": "Run",
     "Application.CombinationSumII.executor": "Run",
     "Application.Combinations.executor": "Debug",
     "Application.CopyListWithRandomPointer.executor": "Run",
     "Application.DailyTemparatures.executor": "Run",
     "Application.DecodeString.executor": "Debug",
+    "Application.DecodeWays.executor": "Run",
     "Application.DirectedGraphCycle.executor": "Run",
     "Application.EvaluateReversePolishNotation.executor": "Run",
     "Application.FIndAllDuplicatesInTheArray.executor": "Run",
@@ -71,10 +73,13 @@
     "Application.LongestRepeatingCharacterReplacement.executor": "Run",
     "Application.MajorityElement.executor": "Run",
     "Application.MaxValueofEquation.executor": "Run",
+    "Application.MaximiseCutSegments.executor": "Run",
+    "Application.MaximumLengthofRepeatedSubarray.executor": "Run",
     "Application.MaximumPointsYouCanObtainfromCards.executor": "Run",
     "Application.MaximumProductSubarray.executor": "Run",
     "Application.MergeKLists.executor": "Run",
     "Application.MinimumMovestoEqualArrayElementsII.executor": "Run",
+    "Application.MinimumPathSum.executor": "Run",
     "Application.MinimumWindowSubstring.executor": "Run",
     "Application.NQueens.executor": "Run",
     "Application.NumberOfIslands.executor": "Run",
@@ -123,13 +128,13 @@
     "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.KinightDialer">
-    <configuration name="EvaluateReversePolishNotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day15.EvaluateReversePolishNotation" />
+  <component name="RunManager" selected="Application.MaximumLengthofRepeatedSubarray">
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.CoinChange" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KinightDialer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17.KinightDialer" />
+    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.DecodeWays" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -150,12 +155,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumProductSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17.MaximumProductSubarray" />
+    <configuration name="MaximiseCutSegments" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.MaximiseCutSegments" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,12 +168,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OnesAndZeroes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day17.OnesAndZeroes" />
+    <configuration name="MaximumLengthofRepeatedSubarray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.MaximumLengthofRepeatedSubarray" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day17.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -176,12 +181,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveAllAdjacentDuplicatesinStringII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day15.RemoveAllAdjacentDuplicatesinStringII" />
+    <configuration name="MinimumPathSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day18.MinimumPathSum" />
       <module name="DailyCodes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day15.*" />
+          <option name="PATTERN" value="day18.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -191,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.KinightDialer" />
-        <item itemvalue="Application.OnesAndZeroes" />
-        <item itemvalue="Application.MaximumProductSubarray" />
-        <item itemvalue="Application.RemoveAllAdjacentDuplicatesinStringII" />
-        <item itemvalue="Application.EvaluateReversePolishNotation" />
+        <item itemvalue="Application.MaximumLengthofRepeatedSubarray" />
+        <item itemvalue="Application.DecodeWays" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.MinimumPathSum" />
+        <item itemvalue="Application.MaximiseCutSegments" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +262,8 @@
       <workItem from="1722255396983" duration="3977000" />
       <workItem from="1722266899224" duration="4605000" />
       <workItem from="1722356627018" duration="4592000" />
-      <workItem from="1722436625384" duration="9000000" />
+      <workItem from="1722436625384" duration="10109000" />
+      <workItem from="1722510133732" duration="13109000" />
     </task>
     <servers />
   </component>
@@ -457,6 +463,14 @@
           <url>file://$PROJECT_DIR$/DailyCodes/src/day17/KinightDialer.java</url>
           <line>17</line>
           <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/DailyCodes/src/day18/MaximiseCutSegments.java</url>
+          <line>21</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="70" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
